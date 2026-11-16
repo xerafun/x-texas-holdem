@@ -12,6 +12,12 @@ export function MetadataUpdater() {
 
         // Update html lang attribute
         document.documentElement.lang = i18n.language;
+
+        // Update meta description
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) {
+            metaDesc.setAttribute('content', t('metadata.description'));
+        }
     }, [t, i18n.language]);
 
     return null;

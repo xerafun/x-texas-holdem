@@ -17,10 +17,24 @@ export function ModeSelection({ onStartGame }: ModeSelectionProps) {
 
     return (
         <div className="relative flex h-dvh items-center justify-center bg-zinc-50 dark:bg-zinc-950 p-4">
+            {/* Top Left - Parent Brand Link */}
+            <div className="absolute top-4 left-4 z-50 flex items-center gap-2">
+                <a
+                    href="https://xerafun.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xs text-xs font-semibold text-zinc-700 dark:text-zinc-200 hover:text-black dark:hover:text-white shadow-xs hover:border-zinc-300 dark:hover:border-zinc-700 transition-all active:scale-95"
+                    title="XeraFun Main Site"
+                >
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                    <span>XeraFun</span>
+                </a>
+            </div>
+
             {/* Top Right Controls */}
             <div className="absolute top-4 right-4 z-50 flex items-center gap-4">
                 <a
-                    href="https://github.com/XERA-2011/x-texas-holdem"
+                    href="https://github.com/xerafun/x-texas-holdem"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-full w-8 h-8 transition-colors hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
@@ -31,11 +45,15 @@ export function ModeSelection({ onStartGame }: ModeSelectionProps) {
                 <LanguageToggle />
                 <ThemeToggle />
             </div>
+
             <div className="max-w-md w-full bg-white dark:bg-zinc-900 rounded-2xl shadow-xl border border-zinc-200 dark:border-zinc-800 p-8 text-center space-y-8">
-                <div className="space-y-2">
+                <div className="space-y-1">
                     <h1 className="text-2xl font-black text-zinc-900 dark:text-zinc-100">
                         {t('menu.title')}
                     </h1>
+                    <p className="text-xs text-zinc-500 dark:text-zinc-400 font-medium">
+                        {t('menu.brand_subtitle')}
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
@@ -94,6 +112,23 @@ export function ModeSelection({ onStartGame }: ModeSelectionProps) {
                     </span>
                 </button>
             </div>
+
+            {/* SEO & Screen Reader Semantic Content for Crawlers & Generative Engines (Bilingual) */}
+            <aside className="sr-only" aria-label="XeraFun Poker Game Details">
+                <h2>XeraFun Poker | XeraFun 德州扑克 (poker.xerafun.com)</h2>
+                <p>
+                    XeraFun Poker is a free, single-player Texas Hold&apos;em browser game by XeraFun (https://xerafun.com).
+                    Play offline without download or registration. Challenge smart AI with Monte Carlo odds calculation.
+                </p>
+                <p>
+                    XeraFun 德州扑克是 XeraFun (https://xerafun.com) 旗下的免费单机德州扑克网页游戏。
+                    无需下载安装或注册账号，即点即玩。内置高智商 AI、蒙特卡洛实时胜率模拟与对手行为画像。
+                </p>
+                <nav aria-label="Brand links">
+                    <a href="https://xerafun.com">XeraFun Official Platform / XeraFun 官方主站</a>
+                    <a href="https://poker.xerafun.com">XeraFun Poker Subdomain / 德州扑克专区</a>
+                </nav>
+            </aside>
         </div>
     );
 }
