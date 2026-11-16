@@ -25,13 +25,13 @@ export function GameTable({ players, communityCards, pot, dealerIdx, currentTurn
   // Layout: P0(bottom) -> P1(bottom-left) -> P2(left) -> P3(top-left) -> P4(top-center) -> P5(top-right) -> P6(right) -> P7(bottom-right)
   const positions = [
     "bottom-[0%] left-1/2 -translate-x-1/2 translate-y-[25%] z-20",                          // P0 (You) - 底部中央
-    "bottom-[8%] left-[6%] xl:bottom-[12%] xl:left-[-5%] z-10",                              // P1 - 左下角
-    "top-[28%] left-[2%] xl:top-[25%] xl:left-[-8%] z-10",                                  // P2 - 左侧中间
+    "bottom-[6%] left-[6%] xl:bottom-[10%] xl:left-[-5%] z-10",                              // P1 - 左下角
+    "top-[22%] left-[2%] xl:top-[22%] xl:left-[-8%] z-10",                                  // P2 - 左侧中间
     "top-[-10%] left-[15%] xl:top-[-8%] xl:left-[12%] z-10",                                 // P3 - 顶部左侧
     "top-[-20%] left-1/2 -translate-x-1/2 z-10",                                             // P4 - 顶部中央
     "top-[-10%] right-[15%] xl:top-[-8%] xl:right-[12%] z-10",                               // P5 - 顶部右侧
-    "top-[28%] right-[2%] xl:top-[25%] xl:right-[-8%] z-10",                                 // P6 - 右侧中间
-    "bottom-[8%] right-[6%] xl:bottom-[12%] xl:right-[-5%] z-10",                            // P7 - 右下角
+    "top-[22%] right-[2%] xl:top-[22%] xl:right-[-8%] z-10",                                 // P6 - 右侧中间
+    "bottom-[6%] right-[6%] xl:bottom-[10%] xl:right-[-5%] z-10",                            // P7 - 右下角
   ];
 
   return (
@@ -76,6 +76,7 @@ export function GameTable({ players, communityCards, pot, dealerIdx, currentTurn
       {players.map((p) => (
         <Player
           key={p.id}
+          seatIndex={p.id}
           player={p}
           isActiveTurn={p.id === currentTurnIdx && stage !== 'showdown'}
           isDealer={p.id === dealerIdx}
