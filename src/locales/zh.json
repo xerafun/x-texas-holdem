@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "title": "单机德州扑克 | 纯单人AI对战",
-        "description": "纯单机，最安全的德州扑克练习工具。挑战高智商AI，随时暂停。绿色健康，仅供娱乐。"
+        "title": "XeraFun 德州扑克 | 免费单机AI对战 - 上班摸鱼练习神器",
+        "description": "XeraFun (xerafun.com) 旗下免费单机德州扑克，无需下载、即点即玩。内置高智商 AI、蒙特卡洛胜率模拟与对手打法画像，纯前端运行安全无扰。"
     },
     "log": {
         "dealer_blind": "庄家 {{name}}, 盲注 ${{sb}}/${{bb}}",
@@ -72,6 +72,7 @@
     },
     "menu": {
         "title": "单机德州扑克",
+        "brand_subtitle": "XeraFun 趣味单机系列 · 免下载即点即玩",
         "normal_mode": "普通电脑",
         "super_mode": "超级电脑",
         "hardcore_badge": "硬核",

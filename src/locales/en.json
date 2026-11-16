@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "title": "Texas Hold'em | AI Challenge",
-        "description": "The ultimate Texas Hold'em experience for quick breaks! No download, no login, just play. Offline, free, and challenging AI opponents. Enjoy pure poker fun anytime, anywhere."
+        "title": "XeraFun Poker | Free Single-Player Texas Hold'em AI Game",
+        "description": "Free single-player Texas Hold'em powered by advanced AI and Monte Carlo probability engines. No download or login required. A sub-project of XeraFun (xerafun.com)."
     },
     "log": {
         "dealer_blind": "Dealer {{name}}, Blinds ${{sb}}/${{bb}}",
@@ -72,6 +72,7 @@
     },
     "menu": {
         "title": "Texas Hold'em",
+        "brand_subtitle": "A XeraFun Mini-Game · Free & No Download",
         "normal_mode": "Normal Bot",
         "super_mode": "Super Bot",
         "hardcore_badge": "Hardcore",

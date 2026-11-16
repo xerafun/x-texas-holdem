@@ -1,16 +1,18 @@
 {
-    "name": "单机德州扑克 | 上班摸鱼神器",
-    "short_name": "摸鱼德州",
-    "description": "无需下载、即点即玩。免费单机德州扑克，挑战智能AI。",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#18181b",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "sizes": "any",
-            "type": "image/x-icon"
-        }
-    ]
+  "name": "XeraFun 德州扑克 | 免费单机AI对战",
+  "short_name": "XeraFun德州",
+  "description": "XeraFun 旗下免费单机德州扑克。无需下载、即点即玩，搭载高智商 AI 与实时胜率模拟。",
+  "start_url": "/",
+  "scope": "/",
+  "id": "xerafun-poker",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#18181b",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
 }

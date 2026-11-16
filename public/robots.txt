@@ -1,4 +1,28 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xera-2011.github.io/x-texas-holdem/sitemap.xml
+# Major Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Generative Engine & AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Host: poker.xerafun.com
+Sitemap: https://poker.xerafun.com/sitemap.xml

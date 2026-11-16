@@ -38,8 +38,18 @@ export function GameHeader({
     const { t } = useTranslation();
     return (
         <>
-            {/* Top Left Controls - Auto Play */}
-            <div className="absolute top-4 left-4 z-50 flex items-center gap-4">
+            {/* Top Left Controls - Brand & Auto Play */}
+            <div className="absolute top-4 left-4 z-50 flex items-center gap-2">
+                <a
+                    href="https://xerafun.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 h-8 px-3 rounded-full border border-zinc-200 dark:border-zinc-700 bg-white/90 dark:bg-zinc-800/90 text-zinc-600 dark:text-zinc-300 hover:text-black dark:hover:text-white text-xs font-bold shadow-xs hover:border-zinc-300 dark:hover:border-zinc-600 transition-all active:scale-95"
+                    title="XeraFun Main Site"
+                >
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                    <span>XeraFun</span>
+                </a>
                 <button
                     onClick={onToggleAutoPlay}
                     className={`flex items-center gap-2 h-8 px-3 rounded-full border shadow-sm transition-all hover:opacity-80 active:scale-95

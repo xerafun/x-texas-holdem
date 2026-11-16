@@ -1,20 +1,22 @@
-# X-TEXAS-HOLDEM ♥️♠️♦️♣️
+# X-TEXAS-HOLDEM (XeraFun Poker) ♥️♠️♦️♣️
 
-[![CI](https://github.com/XERA-2011/x-texas-holdem/actions/workflows/ci.yml/badge.svg)](https://github.com/XERA-2011/x-texas-holdem/actions/workflows/ci.yml)
-[![Deploy](https://github.com/XERA-2011/x-texas-holdem/actions/workflows/deploy.yml/badge.svg)](https://github.com/XERA-2011/x-texas-holdem/actions/workflows/deploy.yml)
-[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4.svg)](https://github.com/XERA-2011/sponsor)
+[![CI](https://github.com/xerafun/x-texas-holdem/actions/workflows/ci.yml/badge.svg)](https://github.com/xerafun/x-texas-holdem/actions/workflows/ci.yml)
+[![Deploy](https://github.com/xerafun/x-texas-holdem/actions/workflows/deploy.yml/badge.svg)](https://github.com/xerafun/x-texas-holdem/actions/workflows/deploy.yml)
 
-A lightweight, single-player Texas Hold'em game powered by advanced AI. No download required.
+A lightweight, single-player Texas Hold'em game powered by advanced AI and Monte Carlo probability simulation. No download required.
+Official sub-project of **[XeraFun](https://xerafun.com)**.
 
 > 📱 **Mobile First**: Optimized for mobile browsers for the best immersive experience.
 
-## 🌐 Live Demo
+## 🌐 Live Access
 
-| Platform | URL |
-|----------|-----|
-| Cloudflare Pages | [x-texas-holdem.pages.dev](https://x-texas-holdem.pages.dev/) |
-| Vercel | [x-texas-holdem.vercel.app](https://x-texas-holdem.vercel.app/) |
-| GitHub Pages | [xera-2011.github.io/x-texas-holdem](https://xera-2011.github.io/x-texas-holdem/) |
+| Platform | URL | Note |
+|----------|-----|------|
+| **Official Primary Site** | **[poker.xerafun.com](https://poker.xerafun.com/)** | ⭐ Recommended |
+| **XeraFun Main Site** | **[xerafun.com](https://xerafun.com/)** | Parent Platform |
+| Cloudflare Pages | [x-texas-holdem.pages.dev](https://x-texas-holdem.pages.dev/) | Mirror |
+| Vercel | [x-texas-holdem.vercel.app](https://x-texas-holdem.vercel.app/) | Mirror |
+| GitHub Pages | [xera-2011.github.io/x-texas-holdem](https://xera-2011.github.io/x-texas-holdem/) | Mirror |
 
 ## 🛠️ Commands
 
