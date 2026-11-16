@@ -113,21 +113,10 @@ export function ModeSelection({ onStartGame }: ModeSelectionProps) {
                 </button>
             </div>
 
-            {/* SEO & Screen Reader Semantic Content for Crawlers & Generative Engines (Bilingual) */}
-            <aside className="sr-only" aria-label="XeraFun Poker Game Details">
-                <h2>XeraFun Poker | XeraFun 德州扑克 (poker.xerafun.com)</h2>
-                <p>
-                    XeraFun Poker is a free, single-player Texas Hold&apos;em browser game by XeraFun (https://xerafun.com).
-                    Play offline without download or registration. Challenge smart AI with Monte Carlo odds calculation.
-                </p>
-                <p>
-                    XeraFun 德州扑克是 XeraFun (https://xerafun.com) 旗下的免费单机德州扑克网页游戏。
-                    无需下载安装或注册账号，即点即玩。内置高智商 AI、蒙特卡洛实时胜率模拟与对手行为画像。
-                </p>
-                <nav aria-label="Brand links">
-                    <a href="https://xerafun.com">XeraFun Official Platform / XeraFun 官方主站</a>
-                    <a href="https://poker.xerafun.com">XeraFun Poker Subdomain / 德州扑克专区</a>
-                </nav>
+            {/* Semantic Context for Crawlers */}
+            <aside className="sr-only" aria-label="About XeraFun Poker">
+                <h2>XeraFun Poker (poker.xerafun.com)</h2>
+                <p>Free single-player Texas Hold&apos;em by <a href="https://xerafun.com">XeraFun</a>. No download required.</p>
             </aside>
         </div>
     );

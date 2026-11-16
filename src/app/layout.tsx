@@ -3,7 +3,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { I18nProvider } from "@/components/i18n-provider";
 
-// 禁用页面缩放，避免移动端用户误操作
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -13,29 +12,19 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "XeraFun Poker | Free Single-Player Texas Hold'em AI Game",
+    default: "XeraFun Poker | Free Texas Hold'em AI Game",
     template: "%s | XeraFun Poker",
   },
   description:
-    "Free single-player Texas Hold'em by XeraFun (xerafun.com). Play instantly in your browser with no download or signup. Features Monte Carlo equity odds and intelligent AI opponents.",
+    "Free single-player Texas Hold'em with smart AI. No download required. By XeraFun.",
   keywords: [
-    "XeraFun",
     "XeraFun Poker",
-    "xerafun.com",
-    "poker.xerafun.com",
     "Texas Hold'em",
     "德州扑克",
     "单机德州扑克",
-    "Free Texas Holdem",
-    "Offline Poker",
-    "Free Poker",
     "Poker AI",
-    "Single Player Poker",
-    "No Download Poker",
-    "Browser Poker Game",
-    "Monte Carlo Poker Odds",
-    "摸鱼德州",
-    "AI扑克对战",
+    "Free Poker",
+    "XeraFun",
   ],
   authors: [{ name: "XeraFun", url: "https://xerafun.com" }],
   creator: "XeraFun",
@@ -50,9 +39,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "XeraFun Poker - Free Single-Player Texas Hold'em with AI",
-    description:
-      "Experience thrilling Texas Hold'em against smart AI opponents. No download, 100% free, mobile-optimized. Powered by XeraFun (xerafun.com).",
+    title: "XeraFun Poker - Free Texas Hold'em",
+    description: "Free single-player Texas Hold'em with smart AI. By XeraFun.",
     url: "https://poker.xerafun.com",
     siteName: "XeraFun Poker",
     locale: "en_US",
@@ -61,9 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "XeraFun Poker | Free Single-Player Texas Hold'em",
-    description:
-      "Play Texas Hold'em against smart AI opponents on XeraFun. Zero download, pause anytime, free forever.",
+    title: "XeraFun Poker | Free Texas Hold'em",
+    description: "Free single-player Texas Hold'em with smart AI. By XeraFun.",
     creator: "@xerafun",
     site: "@xerafun",
   },
@@ -101,8 +88,7 @@ const jsonLdGraph = {
       "@id": "https://poker.xerafun.com/#website",
       url: "https://poker.xerafun.com",
       name: "XeraFun Poker",
-      description:
-        "Free single-player Texas Hold'em web game with advanced AI opponents, built by XeraFun.",
+      description: "Free single-player Texas Hold'em with smart AI.",
       publisher: {
         "@id": "https://xerafun.com/#organization",
       },
@@ -116,7 +102,7 @@ const jsonLdGraph = {
       url: "https://poker.xerafun.com",
       applicationCategory: "GameApplication",
       gamePlatform: "Web Browser",
-      genre: ["Card Game", "Strategy Game"],
+      genre: ["Card Game"],
       operatingSystem: "All",
       offers: {
         "@type": "Offer",
@@ -129,16 +115,7 @@ const jsonLdGraph = {
       isPartOf: {
         "@id": "https://poker.xerafun.com/#website",
       },
-      description:
-        "Lightweight, mobile-first single-player Texas Hold'em game featuring Monte Carlo equity calculation and intelligent AI opponents.",
-      featureList: [
-        "Single-player offline Texas Hold'em",
-        "Monte Carlo real-time win rate & equity calculation",
-        "Intelligent Super AI with opponent profiling (VPIP/PFR)",
-        "Mobile-first responsive vertical poker table",
-        "No download or registration required",
-        "English and Chinese language support",
-      ],
+      description: "Free single-player Texas Hold'em web game with AI opponents.",
     },
     {
       "@type": "BreadcrumbList",
@@ -155,76 +132,6 @@ const jsonLdGraph = {
           position: 2,
           name: "XeraFun Poker",
           item: "https://poker.xerafun.com",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://poker.xerafun.com/#faq",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is XeraFun Poker?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "XeraFun Poker (poker.xerafun.com) is a free, single-player Texas Hold'em web game hosted by XeraFun (xerafun.com). It runs directly in any modern mobile or desktop browser without requiring downloads, app installs, or user registration.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "什么是 XeraFun 德州扑克？",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "XeraFun 德州扑克（poker.xerafun.com）是 XeraFun（xerafun.com）主站旗下的免费单机德州扑克网页游戏，无需下载安装或注册登录，手机或电脑浏览器即点即玩。",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How does the AI in XeraFun Poker work?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "XeraFun Poker features two AI tiers: Normal Mode, which makes probabilistic decisions based on pot odds and position; and Super Mode, which combines real-time Monte Carlo simulations (calculating hand equity over thousands of iterations) with opponent profiling (tracking VPIP, PFR, and aggression factors) to make advanced decisions.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "XeraFun 德州扑克的人工智能（AI）是如何运作的？",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "游戏提供“普通电脑”与“超级电脑”两种难度。超级电脑结合了蒙特卡洛千次实时胜率模拟（Monte Carlo Equity）与对手行为画像分析（追踪 VPIP 入池率、PFR 翻前加注率等指标）进行决策。",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is XeraFun Poker free to play?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, XeraFun Poker is 100% free and open for leisure and practice. All chips are virtual for entertainment and skill development only.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "XeraFun 德州扑克收费吗？",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "完全免费。游戏为纯单机娱乐与技巧练习工具，所有筹码均为虚拟筹码，绿色健康。",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I play XeraFun Poker on mobile devices?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, XeraFun Poker is built mobile-first. The user interface is specifically tailored for vertical touchscreens, allowing seamless one-handed gameplay on iOS and Android devices.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "手机可以玩 XeraFun 德州扑克吗？",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "可以。游戏采用 Mobile-first（移动优先）竖屏设计，专为智能手机单手触控优化，iOS 与 Android 均可流畅运行。",
-          },
         },
       ],
     },

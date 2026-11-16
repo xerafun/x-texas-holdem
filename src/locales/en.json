@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "title": "XeraFun Poker | Free Single-Player Texas Hold'em AI Game",
-        "description": "Free single-player Texas Hold'em powered by advanced AI and Monte Carlo probability engines. No download or login required. A sub-project of XeraFun (xerafun.com)."
+        "title": "XeraFun Poker | Free Texas Hold'em AI Game",
+        "description": "Free single-player Texas Hold'em with smart AI. No download required. By XeraFun."
     },
     "log": {
         "dealer_blind": "Dealer {{name}}, Blinds ${{sb}}/${{bb}}",
@@ -72,7 +72,7 @@
     },
     "menu": {
         "title": "Texas Hold'em",
-        "brand_subtitle": "A XeraFun Mini-Game · Free & No Download",
+        "brand_subtitle": "By XeraFun · Free & No Download",
         "normal_mode": "Normal Bot",
         "super_mode": "Super Bot",
         "hardcore_badge": "Hardcore",

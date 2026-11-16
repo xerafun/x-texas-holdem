@@ -1,60 +1,8 @@
-# XeraFun Poker (单机德州扑克)
+# XeraFun Poker
 
-> XeraFun Poker (https://poker.xerafun.com) is a free, mobile-first, single-player Texas Hold'em web game powered by advanced AI and Monte Carlo probability engines. It is an official sub-product of the XeraFun platform (https://xerafun.com).
+> Free single-player Texas Hold'em web game with advanced AI. Sub-project of XeraFun (https://xerafun.com).
 
----
-
-## 1. English Specification
-
-### Overview
-- **Product Name**: XeraFun Poker (X-Texas-Holdem)
-- **Primary Domain**: https://poker.xerafun.com
-- **Parent Platform**: XeraFun (https://xerafun.com)
-- **Platform Type**: Single-player Web Application / Mobile-First PWA
-- **Access Model**: 100% Free, No download required, No registration, Zero installation, Privacy-friendly (runs entirely in client browser).
-
-### Key Features
-- **High-IQ Poker AI**:
-  - **Normal Mode**: Strategic position-based play, pot odds assessment, and dynamic bluffing.
-  - **Super Mode (Hardcore)**: Real-time Monte Carlo hand equity simulation (thousands of simulations per decision), GTO-inspired hand range modeling, and opponent behavioral profiling (tracking VPIP, PFR, Aggression Factor).
-- **Comprehensive Probability Engine**:
-  - Hand strength evaluation for 7-card combinations (from High Card to Royal Flush).
-  - Main pot and multi-level side pot calculation with fractional chop handling.
-  - Board texture analysis (wet vs. dry boards, flush/straight draw detection).
-- **Responsive & Immersive UX**:
-  - Mobile-first vertical table layout optimized for one-handed touch operation.
-  - Dark mode and light mode themes.
-  - Full bilingual support (English and Simplified Chinese).
-  - Auto-play simulation mode for learning and watching AI vs AI dynamics.
-
----
-
-## 2. 中文说明 (Chinese Specification)
-
-### 概览
-- **产品名称**：XeraFun 德州扑克 (XeraFun Poker)
-- **主要访问网址**：https://poker.xerafun.com
-- **主平台 / 所属品牌**：XeraFun (https://xerafun.com)
-- **产品类型**：纯前端单机 Web 应用 / 移动优先 PWA
-- **模式与资费**：100% 免费、无需下载、无需注册、即点即玩、保护隐私（纯本地端运行）。
-
-### 核心特性
-- **高智商扑克 AI**：
-  - **普通电脑**：基于底池赔率、起手牌范围与位置优势进行理性决策。
-  - **超级电脑（硬核模式）**：结合毫秒级蒙特卡洛千次对局胜率模拟（Monte Carlo Equity）、GTO 启发式起手范围、以及玩家打法画像系统（动态追踪 VPIP 入池率、PFR 翻前加注率、激进系数等）。
-- **专业扑克计算引擎**：
-  - 完整 7 选 5 最佳牌型评估器（从高牌到皇家同花顺）。
-  - 主池与多级边池（Side Pots）平分与结算算法。
-  - 牌面湿润度与顺子/同花听牌动态分析。
-- **极致轻量体验**：
-  - 专为手机竖屏触控优化的移动优先界面。
-  - 支持中英双语无缝切换与亮色/暗色主题。
-  - 内置自动对战托管与复盘排名统计。
-
----
-
-## 3. Quick Links / 快捷导航
-- [XeraFun Poker (Play Now / 立即开始)](https://poker.xerafun.com/)
-- [XeraFun Official Platform (主站)](https://xerafun.com/)
-- [GitHub Source Code (开源仓库)](https://github.com/xerafun/x-texas-holdem)
-- [Sitemap (站点地图)](https://poker.xerafun.com/sitemap.xml)
+- **Game URL**: https://poker.xerafun.com
+- **Platform**: https://xerafun.com
+- **Features**: Single-player, intelligent AI opponents, Monte Carlo odds, mobile-first, no download or registration required.
+- **Repository**: https://github.com/xerafun/x-texas-holdem
